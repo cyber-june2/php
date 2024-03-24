@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Salário</title>
+</head>
+<body>
+    <h2>Calculadora de Salário</h2>
+    <form method="post" action="salario.php">
+        <label for="horas">Número de horas trabalhadas:</label>
+        <input type="text" name="horas" id="horas" required><br><br>
+        <label for="salario_minimo">Valor do salário mínimo:</label>
+        <input type="text" name="salario_minimo" id="salario_minimo" required><br><br>
+        <input type="submit" value="Calcular Salário" name="btenviar" id="idenviar">
+        <input type="reset" value="Limpar" name="btlimpar" id="idlimpar">
+    </form>
+</body>
+</html>
+
